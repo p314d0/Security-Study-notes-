@@ -147,3 +147,99 @@ Hay 5 tipos de hackers
   - La matriz de tácticas pre-ATT&CK se alinea con las fases de reconocimiento y armamento de la cadena de muerte
 - Modelo Diamante de Análisis de Intrusión:
   - Un marco para analizar los incidentes de ciberseguridad y las intrusiones explorando las relaciones entre cuatro características principales: adversario, capacidad, infraestructura y víctima
+
+## MALWARE
+
+---
+
+El malware es software maicioso diseñado para infiltrarse en el sitema informatico y causar daño sin el permiso o el consentimiento del usuario.
+
+Tipos de Malware:
+
+- Viruses
+- Worms
+- Trojan Horses
+- Ramsonware
+- Spyware
+- Rootkits
+- Spam
+
+## VIRUSES
+
+---
+
+Código malicioso que se ejecuta en una máquina sin el conocimiento del usuario y que infecta el ordenador cuando se ejecuta
+§ Los virus requieren una acción del usuario para reproducirse y propagarse
+
+- Boot Sector(Sector de arranque) : Los virus del sector de arranque se almacenan en el primer sector de un disco duro y se cargan en la memoria al arrancar.
+- Macro : Virus incrustado en un documento y que se ejecuta cuando
+  cuando el documento es abierto por el usuario.
+- Program : Los virus de programa infectan un ejecutable o una aplicación
+- Multipartite: Virus que combina virus de arranque y de programa para adherirse primero al sector de arranque y a los archivos del sistema antes de atacar otros archivos del ordenador
+- Encrypted
+- Polimórfico : Versión avanzada de un virus encriptado que se cambia a sí mismo cada vez que se ejecuta alterando el módulo de desencriptación para evitar su detección
+- Metamórfico : Virus que es capaz de reescribirse a sí mismo por completo antes de infectar un archivo (versión avanzada del virus polimórfico).
+  polimórfico)
+- Stealth : Encriptados, polimorficos y metamorficos.
+- Armored (Blindado) : Los virus blindados tienen una capa de protección para confundir a un programa o persona que lo analice
+- Hoax : Engañas al usuario para que infecte su propia maquina.
+
+### WORMS
+
+---
+
+- Software malicioso, como un virus, pero capaz de replicarse a sí mismo sin la interacción del usuario.
+- Los gusanos se autorreplican y se propagan sin el consentimiento o la acción del usuario
+- Los gusanos pueden interrumpir el tráfico normal de la red y las actividades informáticas.  
+  Ejemplo : En 2009: Entre 9 y 15 millones de ordenadores infectados con Conficker
+
+### TROJANS
+
+---
+
+- Software malicioso que se disfraza de software inofensivo o deseable.
+  Los troyanos realizan funciones deseadas y funciones maliciosas
+- Remote Access Troyan (Troyano de acceso remoto) (RAT) : Proporciona al atacante el control remoto de un ordenador víctima y es el tipo de troyano más utilizado.
+
+### RANSOMWARE
+
+---
+
+- Un malware que restringe el acceso al sistema informático de la víctima hasta que se recibe un rescate
+- El ransomware utiliza una vulnerabilidad en su software para obtener acceso y luego encripta sus archivos.  
+  Ejemplo => 17 millones de dólares: SamSam le costó a la ciudad de Atlanta.
+
+### SPYWARE
+
+---
+
+- Un malware que recopila en secreto información sobre el usuario sin su consentimiento. Captura las pulsaciones del teclado realizadas por la víctima y realiza capturas de pantalla que se envían al atacante
+- Adware : Muestra publicidad basada en el espionaje del usuario
+- Grayware : Software que no es benigno ni malicioso y que tiende a comportarse de forma inadecuada sin consecuencias graves.
+
+### ROOTKITS
+
+---
+
+Software diseñado para obtener el control a nivel administrativo de un sistema sin ser detectado. La inyección de DLL es comúnmente utilizada por los rootkits para mantener su control persistente.
+
+- DDL Injection (Inyección de DLL) : El código malicioso se inserta en un proceso en ejecución en una máquina Windows aprovechando las bibliotecas de enlaces dinámicos que se cargan en tiempo de ejecución
+- Driver Manipulation (Manipulación de controladores) : Un ataque que se basa en comprometer los controladores de dispositivos en modo kernel
+  que operan a un nivel privilegiado o de sistema . Se coloca un shim entre dos componentes para interceptar las llamadas y redirigirlas.
+  Los rootkits se activan antes de arrancar el sistema operativo y son difíciles de detectar
+
+### SPAM
+
+---
+
+Actividad que abusa de los sistemas de mensajería electrónica, sobre todo a través del correo electrónico
+
+- Los spammers suelen aprovechar los relés de correo abierto de las empresas para enviar sus mensajes
+- Ley CAN-SPAM de 2003
+
+### En resumen
+
+- Virus : Código que infecta una computadora cuando se abre o ejecuta un archivo - Worm : Actúa como un virus pero puede autorreplicarse
+- Troyano : Parece hacer una función deseada pero también hace algo malicioso. Ransomware : Toma el control de su ordenador o de sus datos a menos que pague o Spyware : Software que recopila su información sin su consentimiento.
+- Rootkit : Obtiene el control administrativo de su sistema dirigiéndose al gestor de arranque o al kernel.
+- Spam : Abuso de los sistemas de mensajería electrónica.
