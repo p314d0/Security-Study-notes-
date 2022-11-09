@@ -243,3 +243,18 @@ Actividad que abusa de los sistemas de mensajería electrónica, sobre todo a tr
 - Troyano : Parece hacer una función deseada pero también hace algo malicioso. Ransomware : Toma el control de su ordenador o de sus datos a menos que pague o Spyware : Software que recopila su información sin su consentimiento.
 - Rootkit : Obtiene el control administrativo de su sistema dirigiéndose al gestor de arranque o al kernel.
 - Spam : Abuso de los sistemas de mensajería electrónica.
+
+## MALWARE INFECTION
+
+---
+
+- Threat Vector (Vector de Amenaza) : Metodo utilizado por el atacante para acceder a la maquina de la victima.
+- Attack Vector (Vector de ataque): Metodo utiliado por el atacante para ganar acceso a la maquina de la victima para poder infectarla con el malware.
+
+### Metodos comunes de entrega
+
+---
+
+Las infecciones de malware suelen comenzar en el software, la mensajería y los medios de comunicación
+
+- Watering Holes (Agujeros de riego) : El malware se coloca en un sitio web al que sabe que sus víctimas potenciales accederán.
